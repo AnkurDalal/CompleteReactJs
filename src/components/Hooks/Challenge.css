@@ -1,0 +1,79 @@
+/* Container Styling */
+/*.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Counter Box */
+.state-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Count Display */
+p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span {
+  color: #007bff;
+}
+
+/* Step Input */
+input[type="number"] {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons Layout */
+.grid-three-cols {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Buttons Styling */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+button:nth-child(1) {
+  background: #28a745;
+  color: white;
+}
+
+button:nth-child(2) {
+  background: #dc3545;
+  color: white;
+}
+
+button:nth-child(3) {
+  background: #ffc107;
+  color: black;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.8;
+}

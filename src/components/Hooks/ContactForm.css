@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+}
+.contact-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #ff4757;
+    box-shadow: 0 0 10px rgba(255, 99, 71, 0.7);
+}
